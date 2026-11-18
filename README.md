@@ -44,6 +44,14 @@ VITE_SUPABASE_ANON_KEY=ta-cle-anon
 
 > ⚠️ Avec la clé anonyme publique, les rapports sont disponibles via les liens partageables. Pour un accès restreint par utilisateur, active l'authentification Supabase et adapte les policies RLS.
 
+## Installer sur iPhone (PWA)
+
+1. Sur GitHub : dépôt → **Settings → Pages → Source : GitHub Actions** (workflow fourni dans `.github/workflows/deploy.yml`)
+2. Ouvre `https://ton-compte.github.io/Report-and-run/` dans **Safari**
+3. Bouton **Partager** → **Sur l'écran d'accueil** → l'app s'installe avec son icône, en plein écran, comme une app native
+
+> Pour une version native distribuée sur l'App Store/TestFlight, un compte Apple Developer (99 $/an) et Xcode sont requis.
+
 ## Structure
 
 - `src/App.tsx` — racine : liste des rapports / éditeur
